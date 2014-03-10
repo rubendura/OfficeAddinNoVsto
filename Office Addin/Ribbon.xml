@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" xmlns:test="testnamespace" onLoad="OnLoad"> 
+  <ribbon> 
+    <tabs> 
+      <tab idQ="test:CustomTab" label="My Tab"> 
+        <group id="Test" label="Sample Group"> 
+          <button id="Button" label="Show Message" size="large" imageMso="BevelShapeGallery" onAction="ShowMessage" /> 
+        </group > 
+      </tab>
+      <tab idQ="test:MyTab" label="My Tab">
+        <group id="Group" label="Sample Group">
+          <button id="But" label="Show Message" size="large" imageMso="BevelShapeGallery" onAction="ShowMessage" />
+        </group >
+      </tab>
+    </tabs> 
+  </ribbon> 
+</customUI>
